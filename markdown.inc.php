@@ -4,6 +4,18 @@ function plugin_markdown_header() {
     return <<<'EOS'
 <script src="https://unpkg.com/markdown-it/dist/markdown-it.min.js"></script>
 <script src="https://unpkg.com/highlightjs"></script>
+<style>
+  table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0.8em;
+  }
+  td, th {
+    border: 1px solid gray;
+    padding: 0.5em;
+  }
+</style>
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     // Load GitHub style for <code> tag
