@@ -10,3 +10,7 @@ Pukiwiki plugin for rendering Markdown string.
 ## Known Bugs
 
 - Headers are not shown in the `#contents` TOC list.
+
+## Thanks
+
+- [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it): Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed
