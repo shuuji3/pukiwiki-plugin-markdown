@@ -35,6 +35,16 @@ function plugin_markdown_header() {
   .emoji {
     height: 1.2em;
   }
+
+  /* code */
+  :not(pre) > code {
+    color: #dd3333;
+    font-weight: bold;
+    padding: 0.125em 0.25em;
+    margin: 0.25em;
+    border-radius: 3px;
+    border: solid 1px lightgray;
+  }
 </style>
 <script>
   document.addEventListener("DOMContentLoaded", () => {
